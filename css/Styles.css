@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 body {
     font-family: Arial, sans-serif;
     height: 100%;
@@ -19,15 +24,14 @@ h1 {
     border: none;
     border-top: 2px solid #ffffff; 
     margin: 20px 0; 
-    width: 90%;
+    width: 100%;
 }
 #animate {
-    flex-grow: 1; /* El contenido principal crecerá para ocupar el espacio disponible */
+    height: 60vh;
     display: flex;
     justify-content: space-evenly; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
-    padding: 20px;
-    
+    padding: 20px; 
 }
 
 #array-number {
@@ -66,5 +70,4 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
 }
